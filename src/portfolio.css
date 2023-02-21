@@ -16,7 +16,7 @@
 .hero h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2;
     font-weight: normal;
 }
@@ -27,6 +27,14 @@
     font-weight: bold;
     font-size: 36px;
     margin: 0;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .btn-branding {

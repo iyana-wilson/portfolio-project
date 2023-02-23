@@ -11,13 +11,14 @@
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 96px;
+    line-height: 1.5;
 }
 
 .hero h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: normal;
 }
 
@@ -57,5 +58,36 @@ color: white;
     line-height: 20px;
     padding: 15px 30px;
     text-decoration: none;
+}
 
+@media (max-width: 960px) {
+    .project {
+        padding: 0;
+        text-align: center;
+    }
+
+    .btn-branding-outline {
+        padding: 10px 15px;
+    }
+
+    .hero h1 {
+        line-height: 1.5;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .container-2, .container-3 {
+        padding-top: 50px;
+    }
+
+    .container-3 {
+        padding-bottom: 50px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
 }

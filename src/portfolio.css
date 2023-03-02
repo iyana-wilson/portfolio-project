@@ -39,29 +39,53 @@ p {
     line-height: 30px;
 }
 
-.about-page-container h1 {
+.entire-about-page {
+    background: linear-gradient(109.6deg, rgb(238, 164, 179) 11.2%, rgb(212, 153, 234) 47.3%, rgb(150, 121, 255) 100.2%);
+}
+
+.about-section-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.about-section-container h1 {
     font-size: 64px;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    color: blueviolet;
 }
 
-.about-page-container h4 {
+.about-section-container h4 {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
-.about-page-container p {
+.about-section-container p {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 
-.btn {
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+.about-section-content img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 15%;
+    border: 2px dotted purple;
+}
+
+.btn-brand {
+background-color: blueviolet;
+font-size: 16px;
+line-height: 20px;
+border-radius: 4px;
+padding: 12px 20px;
+text-decoration: none;
+color: white;
 }
 
 .btn-branding {
@@ -69,7 +93,7 @@ background-color: plum;
 font-size: 16px;
 line-height: 20px;
 border-radius: 4px;
-padding: 15px 30px;
+padding: 12px 20px;
 text-decoration: none;
 color: white;
 }
@@ -81,7 +105,7 @@ color: white;
     border-radius: 4px;
     font-size: 18px;
     line-height: 20px;
-    padding: 15px 30px;
+    padding: 12px 20px;
     text-decoration: none;
 }
 
@@ -98,6 +122,22 @@ color: white;
     .hero h1 {
         line-height: 1.5;
         font-size: 50px;
+    }
+
+    .about-section-content h1 {
+        font-size: 30px;
+    }
+
+    .about-section-content h4 {
+        font-size: 15px;
+    }
+
+    .about-section-content img {
+        width: 190px;
+    }
+
+    .about-section-content p {
+        font-size: 14px;
     }
 
     h2 {

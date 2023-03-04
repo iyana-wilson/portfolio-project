@@ -1,10 +1,22 @@
+
 .hero {
     text-align: center;
-    background-color: purple;
+    background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
     color: white;
     padding: 160px 20px;
 }
 
+.project {
+    background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+}
+
+.project h2, p {
+    color: white;
+}
+
+.project-paragraph {
+    color: purple;
+}
 
 .hero h1 {
     text-align: center;
@@ -40,7 +52,7 @@ p {
 }
 
 .entire-about-page {
-    background: linear-gradient(109.6deg, rgb(238, 164, 179) 11.2%, rgb(212, 153, 234) 47.3%, rgb(150, 121, 255) 100.2%);
+   background-color: black;
 }
 
 .about-section-container {
@@ -62,12 +74,14 @@ p {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    color: white;
 }
 
 .about-section-container p {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .about-section-content img {
@@ -109,6 +123,15 @@ color: white;
     text-decoration: none;
 }
 
+.whole-page {
+    background: black;
+    color: blueviolet;
+}
+
+.contact-container {
+    text-align: center;
+    line-height: 2.5;
+}
 
 @media (max-width: 960px) {
     .project {

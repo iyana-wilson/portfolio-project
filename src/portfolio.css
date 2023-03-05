@@ -87,7 +87,7 @@ p {
 .about-section-content img {
     display: block;
     margin: auto;
-    width: 250px;
+    width: 300px;
     border-radius: 15%;
     border: 2px dotted purple;
 }
@@ -121,6 +121,36 @@ color: white;
     line-height: 20px;
     padding: 12px 20px;
     text-decoration: none;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: plum;
 }
 
 .whole-page {
@@ -168,8 +198,10 @@ color: white;
         font-size: 44px;
     }
 
-    .container-2, .container-3 {
+    .container-1, .container-2, .container-3 {
         padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .container-3 {

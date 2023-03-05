@@ -87,7 +87,7 @@ p {
 .about-section-content img {
     display: block;
     margin: auto;
-    width: 300px;
+    width: 500px;
     border-radius: 15%;
     border: 2px dotted purple;
 }
@@ -124,7 +124,7 @@ color: white;
 }
 
 .logo {
-    max-width: 80px;
+    max-height: 40px;
 }
 
 nav {

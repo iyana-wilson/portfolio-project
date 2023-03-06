@@ -71,7 +71,7 @@ p {
 
 .about-section-container h4 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
@@ -124,7 +124,7 @@ color: white;
 }
 
 .logo {
-    max-height: 40px;
+    max-height: 60px;
 }
 
 nav {

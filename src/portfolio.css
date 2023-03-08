@@ -51,6 +51,10 @@ p {
     line-height: 30px;
 }
 
+.container-2 {
+    padding-left: 10px;
+}
+
 .entire-about-page {
    background-color: black;
 }
@@ -124,24 +128,13 @@ color: white;
 }
 
 .logo {
-    max-height: 60px;
+    max-height: 85px;
 }
 
 nav {
-    padding: 10px;
+    padding: 10px 0;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 40px;
-    margin-left: 15px;
-}
 
 nav a {
     text-decoration: none;
@@ -151,6 +144,17 @@ nav a {
 
 nav a:hover {
     color: plum;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    line-height: 42px;
+    margin-left: 15px;
 }
 
 .whole-page {

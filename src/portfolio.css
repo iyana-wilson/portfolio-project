@@ -56,8 +56,35 @@ footer h4 {
     font-size: 30px;
 }
 
-.container-2 {
-    padding-left: 10px;
+.project-section {
+    background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+}
+
+figure {
+    text-align: center;
+    display: block;
+}
+
+figure .delivery {
+    padding-top: 30px;
+}
+
+figure h2 {
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+
+figure img {
+    width: 350px;
+    text-align: center;
+   
+}
+
+figure figcaption {
+    padding-top: 15px;
+    font-weight: bold;
+    color: white;
 }
 
 .entire-about-page {
@@ -190,8 +217,13 @@ footer .contact-box p {
     margin: 0;
 }
 
+footer .footer-paragraph {
+    padding: 0;
+    margin: 0;
+}
+
 footer .email-link {
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
@@ -254,5 +286,9 @@ footer .social-links a:hover {
 
     .hero {
         padding: 80px 20px;
+    }
+
+    footer p {
+        font-size: 14px;
     }
 }

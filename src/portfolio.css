@@ -217,26 +217,27 @@ footer .contact-box p {
     margin: 0;
 }
 
-footer .footer-paragraph {
-    padding: 0;
-    margin: 0;
+.footer-p {
+    color: purple;
+    text-align: center;
 }
 
 footer .email-link {
-    color: black;
+    color: purple;
     font-size: 18px;
+    text-decoration: none;
 }
 
 footer .social-links a {
     margin: 0 20px;
-    color: white;
+    color: plum;
     font-size: 25px;
     transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
     color: black;
-    background: plum;
+    background: purple;
 }
 
 @media (max-width: 960px) {
@@ -289,6 +290,10 @@ footer .social-links a:hover {
     }
 
     footer p {
+        font-size: 14px;
+    }
+
+    figcaption {
         font-size: 14px;
     }
 }

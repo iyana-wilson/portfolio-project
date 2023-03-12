@@ -292,10 +292,11 @@ footer .social-links a:hover {
 
     footer p {
         font-size: 12px;
+        padding: 10px;
     }
 
     figcaption {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .delivery-description {

@@ -58,6 +58,7 @@ footer h4 {
 
 .project-section {
     background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+    padding: 10px;
 }
 
 figure {
@@ -295,5 +296,9 @@ footer .social-links a:hover {
 
     figcaption {
         font-size: 14px;
+    }
+
+    .delivery {
+        font-size: 12px;
     }
 }

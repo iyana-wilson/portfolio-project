@@ -74,6 +74,7 @@ figure h2 {
     font-weight: bold;
     color: white;
     padding-bottom: 10px;
+    font-family: "Playfair Display, sans-serif";
 }
 
 figure img {
@@ -86,6 +87,7 @@ figure figcaption {
     padding-top: 15px;
     font-weight: bold;
     color: white;
+    font-family: "Poppins, sans-serif";
 }
 
 .entire-about-page {
@@ -124,7 +126,7 @@ figure figcaption {
 .about-section-content img {
     display: block;
     margin: auto;
-    width: 500px;
+    width: 300px;
     border-radius: 15%;
     border: 2px dotted purple;
 }
